@@ -29,6 +29,9 @@ Demo Target: Altoro Mutual (testfire.net)
 Used Sniper / Pitchfork attacks
 
 Tested multiple username & password combinations
+<p align="center">
+  <img src="screenshourts/attack3.png" width="800">
+</p>
 Analyzed:
 HTTP status codes
 Response length
@@ -37,6 +40,9 @@ Redirect behavior
 Identified weak authentication handling
 
 ## 2️⃣ SQL Injection (Authentication Bypass)
+<p align="center">
+  <img src="screenshourts/sql1.png" width="800">
+</p>
 
 Injected SQL payloads into login parameters
 
@@ -49,6 +55,12 @@ Successfully bypassed login and accessed Admin panel
 Demonstrates lack of proper input validation
 
 ## 3️⃣ Cross-Site Scripting (XSS)
+<p align="center">
+  <img src="screenshourts/xss1.png" width="800">
+</p>
+<p align="center">
+  <img src="screenshourts/xss2.png" width="800">
+</p>
 
 Reflected XSS via search functionality
 
@@ -61,6 +73,10 @@ JavaScript executed in browser
 Confirms missing output encoding
 
 ## 4️⃣ Burp Decoder Usage
+
+<p align="center">
+  <img src="screenshourts/decoder.png" width="800">
+</p>
 
 Encoded & decoded data
 
@@ -75,6 +91,10 @@ Encoded parameters
 Obfuscated values
 
 ## 5️⃣ Intercepting Requests (Burp Proxy)
+<p align="center">
+  <img src="screenshourts/otp1.png" width="800">
+</p>
+
 
 Intercepted HTTP requests
 
@@ -82,7 +102,7 @@ Modified parameters before forwarding
 
 Observed server responses in real time
 
-📸 Screenshots Included
+## 📸 Screenshots Included
 
 Burp Intruder attack results
 
