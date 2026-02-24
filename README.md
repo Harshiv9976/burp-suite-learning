@@ -19,6 +19,12 @@ Demo Target: Altoro Mutual (testfire.net)
 
 ## 🔍 Vulnerabilities Demonstrated
 ## 1️⃣ Brute Force / Credential Testing (Burp Intruder)
+<p align="center">
+  <img src="screenshourts/attack1.png" width="800">
+</p>
+<p align="center">
+  <img src="screenshourts/attack2.png" width="800">
+</p>
 
 Used Sniper / Pitchfork attacks
 
